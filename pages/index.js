@@ -7,7 +7,7 @@ import Date from "../components/date";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  console.log("====allPostsData=====", allPostsData);
+  console.log("====allPostsData 123=====", allPostsData);
   return {
     props: {
       allPostsData
